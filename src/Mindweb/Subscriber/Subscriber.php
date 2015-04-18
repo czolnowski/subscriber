@@ -19,4 +19,9 @@ interface Subscriber
      * @return ConfigurationInterface|null
      */
     public function getConfiguration();
+
+    /**
+     * @param array $configuration
+     */
+    public function initialize(array $configuration = array());
 } 
